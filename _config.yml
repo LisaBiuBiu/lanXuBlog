@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 前端
+subtitle: 前端升级打怪路程
 description:
 keywords:
-author: John Doe
-language:
+author: 兰因絮果
+language: zh-Hans
 timezone:
 
 # URL
@@ -27,6 +27,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -73,9 +74,13 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
-
+theme: next
+scheme: Mist
+plugins: hexo-generate-feed
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
 deploy:
-  type:git  
+  type: git
+  repo: https://github.com/LisaBiuBiu/lanXuBlog.git
+  branch: master

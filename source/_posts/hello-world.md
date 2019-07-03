@@ -1,10 +1,12 @@
 ---
-title: Hello World
+title: Hexo的搭建
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+[Hexo](https://hexo.io/) 是一个快速、简洁且高效的博客框架。
 
-## Quick Start
-
+## Quick Start（使用 npm 安装 Hexo）
+``` bash
+ $ npm install -g hexo-cli
+```
 ### Create a new post
 
 ``` bash
